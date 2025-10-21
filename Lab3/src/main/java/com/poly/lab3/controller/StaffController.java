@@ -11,7 +11,7 @@ public class StaffController {
 	public String detail(Model model) { 
 	Staff staff = Staff.builder() 
 	.id("user@gmail.com") 
-	.fullname("nguyễn văn user") 
+	.fullname("nguyễn văn Tuấn") 
 	.level(2) 
 	.build(); 
 	model.addAttribute("staff", staff); 
